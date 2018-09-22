@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+height: 30vh;
+width: 100vw;
+background-color: #333333;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h1{
+  font-size: 40px;
+  color: white;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-family: 'Spirax', cursive;
+  font-family: 'Cedarville Cursive', cursive;
+}
+.recherche{
+  font-size: 30px;
+}
+.button{
+  width: 20%
+}
+.barre{
+  display: flex;
+  padding: 20px;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #FFFDFF;
+  width: 100vw;
+
+}
+div{
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  height: 40%;
+  width :30%;
+  align-items: center;
+
+}
+h2{
+  width: 100%;
+  font-size: 30px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Noto Serif', serif;
+font-family: 'Noto Serif JP', sans-serif;
+}
+p{
+  font-family: 'Noto Serif', serif;
+font-family: 'Noto Serif JP', sans-serif;
+}
+img{
+height: 30%;
+width: 20%;
+
+}
+.logo{
+  height: 100%;
+  width: 100%;
+}
+.hidden{
+  display: none;
+}
+
+@media (max-width: 800px) {
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  img{
+    width: 20%;
+  }
+  header{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .barre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .recherche{
+    font-size: 15px;
+  }
+.logo{
+background-color: white;
+
+}
+button{
+  color: white;
+}
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+.logo{
+  height: 100%;
+  width: 100%;
+}
