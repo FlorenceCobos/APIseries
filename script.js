@@ -23,7 +23,7 @@ function search(){
   } else {
     const xhttp = new XMLHttpRequest();
     
-    xhttp.open("GET", "http://api.tvmaze.com/search/shows?q=" + inputValue, false);
+    xhttp.open("GET", "https://api.tvmaze.com/search/shows?q=" + inputValue, false);
     xhttp.send();
     
     let results = JSON.parse(xhttp.response);
